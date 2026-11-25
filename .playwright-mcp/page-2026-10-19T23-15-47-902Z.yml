@@ -1,0 +1,98 @@
+- main [ref=f1e3]:
+  - generic [ref=f1e4]:
+    - complementary [ref=f1e5]:
+      - link "v vuelve ." [ref=f1e6] [cursor=pointer]:
+        - /url: /propuesta-1/login
+        - generic [ref=f1e7]: v
+        - text: vuelve
+        - generic [ref=f1e8]: .
+      - paragraph [ref=f1e9]: DUEÑO · ESPACIO
+      - navigation "Navegación Dueño" [ref=f1e10]:
+        - link "⌂ Resumen" [ref=f1e11] [cursor=pointer]:
+          - /url: /propuesta-1/dueno/inicio
+          - generic [ref=f1e12]: ⌂
+          - generic [ref=f1e13]: Resumen
+        - link "◉ Clientes" [ref=f1e14] [cursor=pointer]:
+          - /url: /propuesta-1/dueno/clientes
+          - generic [ref=f1e15]: ◉
+          - generic [ref=f1e16]: Clientes
+        - link "▤ Campañas" [ref=f1e17] [cursor=pointer]:
+          - /url: /propuesta-1/dueno/campanas
+          - generic [ref=f1e18]: ▤
+          - generic [ref=f1e19]: Campañas
+        - link "＋ Registrar visita" [ref=f1e20] [cursor=pointer]:
+          - /url: /propuesta-1/dueno/visitas
+          - generic [ref=f1e21]: ＋
+          - generic [ref=f1e22]: Registrar visita
+        - link "◦ Métricas" [ref=f1e23] [cursor=pointer]:
+          - /url: /propuesta-1/dueno/metricas
+          - generic [ref=f1e24]: ◦
+          - generic [ref=f1e25]: Métricas
+        - link "✳ Recompensas 3" [ref=f1e26] [cursor=pointer]:
+          - /url: /propuesta-1/dueno/recompensas
+          - generic [ref=f1e27]: ✳
+          - generic [ref=f1e28]: Recompensas
+          - generic [ref=f1e29]: "3"
+        - link "◎ Mi negocio" [ref=f1e30] [cursor=pointer]:
+          - /url: /propuesta-1/dueno/perfil
+          - generic [ref=f1e31]: ◎
+          - generic [ref=f1e32]: Mi negocio
+      - generic [ref=f1e34]:
+        - generic [ref=f1e35]: LM
+        - generic [ref=f1e36]:
+          - generic [ref=f1e37]: Laura Méndez
+          - generic [ref=f1e38]: Dueño
+        - button "Cerrar sesión" [ref=f1e39] [cursor=pointer]: ↗
+    - generic [ref=f1e40]:
+      - generic [ref=f1e41]:
+        - generic [ref=f1e42]:
+          - generic [ref=f1e43]: Vuelve
+          - generic [ref=f1e44]: /
+          - generic [ref=f1e45]: Noche de brujas
+        - generic [ref=f1e46]:
+          - button "Notificaciones" [ref=f1e47] [cursor=pointer]: ♧
+          - button "LM Laura ⌄" [ref=f1e48] [cursor=pointer]:
+            - generic [ref=f1e49]: LM
+            - generic [ref=f1e50]: Laura
+            - generic [ref=f1e51]: ⌄
+      - generic [ref=f1e52]:
+        - generic [ref=f1e53]:
+          - generic [ref=f1e54]:
+            - generic [ref=f1e55]: DETALLE DE CAMPAÑA
+            - heading "Noche de brujas" [level=1] [ref=f1e103]
+            - paragraph [ref=f1e57]: Chocolate caliente al completar 5 visitas.
+          - button "← Volver a campañas" [ref=f1e104] [cursor=pointer]
+        - generic [ref=f1e59]:
+          - article [ref=f1e105]:
+            - generic [ref=f1e106]: ◉
+            - generic [ref=f1e107]: Participantes
+            - strong [ref=f1e108]: "8"
+            - generic [ref=f1e109]: Clientes inscritos
+          - article [ref=f1e110]:
+            - generic [ref=f1e111]: ✓
+            - generic [ref=f1e112]: Visitas para premio
+            - strong [ref=f1e113]: "5"
+            - generic [ref=f1e114]: Por tarjeta
+          - article [ref=f1e115]:
+            - generic [ref=f1e116]: ✳
+            - generic [ref=f1e117]: Estado
+            - strong [ref=f1e118]: Activa
+            - generic [ref=f1e119]: Campaña mock
+        - generic [ref=f1e96]:
+          - generic [ref=f1e120]:
+            - generic [ref=f1e121]:
+              - heading "Estado del programa" [level=2] [ref=f1e122]
+              - paragraph [ref=f1e123]: Vista de campaña para Café Laurel
+            - generic [ref=f1e124]: Activa
+          - generic [ref=f1e125]:
+            - generic [ref=f1e126]: ☕
+            - generic [ref=f1e127]:
+              - text: Noche de brujas
+              - paragraph [ref=f1e128]: Chocolate caliente · 5 visitas · 8 participantes
+          - generic [ref=f1e129]:
+            - button "▦ Vista previa del QR" [ref=f1e130] [cursor=pointer]
+            - button "⏯ Finalizar campaña" [ref=f1e131] [cursor=pointer]
+  - generic [ref=f1e100]:
+    - generic [ref=f1e101]: Propuesta 01
+    - link "Comparar diseños ↗" [ref=f1e102] [cursor=pointer]:
+      - /url: /propuestas

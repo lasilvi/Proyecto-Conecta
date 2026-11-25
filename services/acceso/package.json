@@ -1,0 +1,20 @@
+{
+  "name": "@comacita/servicio-acceso",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/app.ts"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "logs": "wrangler tail"
+  },
+  "dependencies": {
+    "@comacita/core": "*",
+    "@comacita/db": "*",
+    "drizzle-orm": "^0.44.0",
+    "hono": "^4.9.0",
+    "zod": "^3.25.0"
+  }
+}

@@ -1,0 +1,85 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - link "v vuelve ." [ref=e6] [cursor=pointer]:
+        - /url: /propuesta-1/login
+        - generic [ref=e7]: v
+        - text: vuelve
+        - generic [ref=e8]: .
+      - paragraph [ref=e9]: EMPLEADO · ESPACIO
+      - navigation "Navegación Empleado" [ref=e10]:
+        - link "⌂ Caja" [ref=e11] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/inicio
+          - generic [ref=e12]: ⌂
+          - generic [ref=e13]: Caja
+        - link "＋ Registrar visita" [ref=e14] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/visitas
+          - generic [ref=e15]: ＋
+          - generic [ref=e16]: Registrar visita
+        - link "▦ Escanear código" [ref=e17] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/escanear
+          - generic [ref=e18]: ▦
+          - generic [ref=e19]: Escanear código
+        - link "◉ Buscar clientes" [ref=e20] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/clientes
+          - generic [ref=e21]: ◉
+          - generic [ref=e22]: Buscar clientes
+        - link "◦ Nuevo cliente" [ref=e23] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/nuevo-cliente
+          - generic [ref=e24]: ◦
+          - generic [ref=e25]: Nuevo cliente
+        - link "◎ Mi perfil" [ref=e26] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/perfil
+          - generic [ref=e27]: ◎
+          - generic [ref=e28]: Mi perfil
+      - generic [ref=e30]:
+        - generic [ref=e31]: PR
+        - generic [ref=e32]:
+          - generic [ref=e33]: Pedro Ramírez
+          - generic [ref=e34]: Empleado
+        - button "Cerrar sesión" [ref=e35] [cursor=pointer]: ↗
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: Vuelve
+          - generic [ref=e40]: /
+          - generic [ref=e41]: Escanear código
+        - generic [ref=e42]:
+          - button "Notificaciones" [ref=e43] [cursor=pointer]: ♧
+          - button "PR Pedro ⌄" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: PR
+            - generic [ref=e46]: Pedro
+            - generic [ref=e47]: ⌄
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - generic [ref=e51]: ESCÁNER DE DEMOSTRACIÓN
+          - heading "Escanear código" [level=1] [ref=e124]
+          - paragraph [ref=e53]: En una versión conectada, aquí se abrirá la cámara para leer el QR del cliente.
+        - generic [ref=e133]:
+          - generic [ref=e134]: MODO DE PRUEBA
+          - heading "Apunta al código del cliente" [level=2] [ref=e135]
+          - paragraph [ref=e136]: Para explorar el flujo sin usar la cámara, simula una lectura con el código de Camila.
+          - button "Simular lectura de QR →" [active] [ref=e137] [cursor=pointer]:
+            - text: Simular lectura de QR
+            - generic [ref=e138]: →
+  - generic [ref=e121]:
+    - generic [ref=e122]: Propuesta 01
+    - link "Comparar diseños ↗" [ref=e123] [cursor=pointer]:
+      - /url: /propuestas
+  - dialog [ref=e139]:
+    - button "Cerrar" [ref=e140] [cursor=pointer]: ×
+    - generic [ref=e141]: CR
+    - generic [ref=e142]: FICHA DE CLIENTE
+    - heading "Camila Rodríguez" [level=2] [ref=e143]
+    - paragraph [ref=e144]: 300 456 7812
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]: "14"
+        - text: visitas
+      - generic [ref=e148]:
+        - generic [ref=e149]: 4/10
+        - text: sellos actuales
+      - generic [ref=e150]:
+        - generic [ref=e151]: Hoy
+        - text: última visita
+    - button "＋ Registrar una visita" [ref=e152] [cursor=pointer]

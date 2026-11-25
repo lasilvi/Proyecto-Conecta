@@ -1,0 +1,10 @@
+# Servicio "acceso" de Comacita como Cloudflare Worker.
+# Secretos (una vez):  npx wrangler secret put DATABASE_URL   y   npx wrangler secret put JWT_SECRET
+# Desplegar:           npm run deploy -w @comacita/servicio-acceso
+name = "comacita-acceso"
+main = "src/worker.ts"
+compatibility_date = "2025-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Se activa cuando el dominio esté en Cloudflare. El patrón con * cubre también los dominios propios de cada marca.
+# routes = [{ pattern = "*/api/acceso/*", zone_name = "DOMINIO-PLATAFORMA" }]

@@ -1,0 +1,15 @@
+# Servicio "archivos" de Comacita como Cloudflare Worker.
+# Secretos (una vez):  npx wrangler secret put DATABASE_URL   y   npx wrangler secret put JWT_SECRET
+# Desplegar:           npm run deploy -w @comacita/servicio-archivos
+name = "comacita-archivos"
+main = "src/worker.ts"
+compatibility_date = "2025-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Se activa cuando el dominio esté en Cloudflare. El patrón con * cubre también los dominios propios de cada marca.
+# routes = [{ pattern = "*/api/archivos/*", zone_name = "DOMINIO-PLATAFORMA" }]
+
+# Bucket de R2 para logos e imágenes (crear con: npx wrangler r2 bucket create comacita-archivos)
+[[r2_buckets]]
+binding = "ARCHIVOS"
+bucket_name = "comacita-archivos"

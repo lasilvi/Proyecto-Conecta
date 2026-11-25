@@ -1,0 +1,51 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - link "Vuelve." [ref=e5] [cursor=pointer]:
+      - /url: /login
+    - generic [ref=e6]: Laboratorio de diseño
+  - generic [ref=e7]:
+    - paragraph [ref=e8]: CUATRO DIRECCIONES VISUALES
+    - heading "Elige cómo se siente la experiencia Vuelve." [level=1] [ref=e9]: Elige cómo se sientela experiencia Vuelve.
+    - paragraph [ref=e10]: Compara cuatro propuestas interactivas con los mismos datos de ejemplo. Cada una incluye acceso por perfil y sus pantallas principales.
+  - region "Alternativas de diseño" [ref=e11]:
+    - article [ref=e12]:
+      - generic [ref=e24]: "01"
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: PROPUESTA 01
+        - heading "Minimalista y moderna" [level=2] [ref=e27]
+        - paragraph [ref=e28]: Una experiencia ligera con navegación lateral, aire, tipografía limpia y foco en las tareas.
+        - link "Explorar propuesta" [ref=e29] [cursor=pointer]:
+          - /url: /propuesta-1/login
+          - text: Explorar propuesta
+          - generic [aria-hidden] [ref=e30]: ↗
+    - article [ref=e31]:
+      - generic [ref=e43]: "02"
+      - generic [ref=e44]:
+        - paragraph [ref=e45]: PROPUESTA 02
+        - heading "Premium y elegante" [level=2] [ref=e46]
+        - paragraph [ref=e47]: Tonos cálidos, detalles editoriales y tarjetas cuidadas para una experiencia refinada.
+        - link "Explorar propuesta" [ref=e48] [cursor=pointer]:
+          - /url: /propuesta-2/login
+          - text: Explorar propuesta
+          - generic [aria-hidden] [ref=e49]: ↗
+    - article [ref=e50]:
+      - generic [ref=e62]: "03"
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: PROPUESTA 03
+        - heading "Dashboard profesional" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Panel analítico, tablas claras y accesos directos para trabajar con rapidez.
+        - link "Explorar propuesta" [ref=e67] [cursor=pointer]:
+          - /url: /propuesta-3/login
+          - text: Explorar propuesta
+          - generic [aria-hidden] [ref=e68]: ↗
+    - article [ref=e69]:
+      - generic [ref=e81]: "04"
+      - generic [ref=e82]:
+        - paragraph [ref=e83]: PROPUESTA 04
+        - heading "Moderna, visual e intuitiva" [level=2] [ref=e84]
+        - paragraph [ref=e85]: Bloques visuales, acciones grandes y navegación sencilla, pensada para cualquier persona.
+        - link "Explorar propuesta" [ref=e86] [cursor=pointer]:
+          - /url: /propuesta-4/login
+          - text: Explorar propuesta
+          - generic [aria-hidden] [ref=e87]: ↗
+  - generic [ref=e88]: Prototipos navegables · Información demostrativa · Sin conexión a backend

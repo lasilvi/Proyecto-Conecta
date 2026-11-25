@@ -1,0 +1,125 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - link "v vuelve ." [ref=e6] [cursor=pointer]:
+        - /url: /propuesta-1/login
+        - generic [ref=e7]: v
+        - text: vuelve
+        - generic [ref=e8]: .
+      - paragraph [ref=e9]: EMPLEADO · ESPACIO
+      - navigation "Navegación Empleado" [ref=e10]:
+        - link "⌂ Caja" [ref=e11] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/inicio
+          - generic [ref=e12]: ⌂
+          - generic [ref=e13]: Caja
+        - link "＋ Registrar visita" [ref=e14] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/visitas
+          - generic [ref=e15]: ＋
+          - generic [ref=e16]: Registrar visita
+        - link "▦ Escanear código" [ref=e17] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/escanear
+          - generic [ref=e18]: ▦
+          - generic [ref=e19]: Escanear código
+        - link "◉ Buscar clientes" [ref=e20] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/clientes
+          - generic [ref=e21]: ◉
+          - generic [ref=e22]: Buscar clientes
+        - link "◦ Nuevo cliente" [ref=e23] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/nuevo-cliente
+          - generic [ref=e24]: ◦
+          - generic [ref=e25]: Nuevo cliente
+        - link "◎ Mi perfil" [ref=e26] [cursor=pointer]:
+          - /url: /propuesta-1/empleado/perfil
+          - generic [ref=e27]: ◎
+          - generic [ref=e28]: Mi perfil
+      - generic [ref=e30]:
+        - generic [ref=e31]: PR
+        - generic [ref=e32]:
+          - generic [ref=e33]: Pedro Ramírez
+          - generic [ref=e34]: Empleado
+        - button "Cerrar sesión" [ref=e35] [cursor=pointer]: ↗
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: Vuelve
+          - generic [ref=e40]: /
+          - generic [ref=e41]: Caja
+        - generic [ref=e42]:
+          - button "Notificaciones" [ref=e43] [cursor=pointer]: ♧
+          - button "PR Pedro ⌄" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: PR
+            - generic [ref=e46]: Pedro
+            - generic [ref=e47]: ⌄
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - generic [ref=e51]: PUNTO DE VENTA
+          - heading "Hola, Pedro" [level=1] [ref=e52]
+          - paragraph [ref=e53]: Listo para atender a cada cliente.
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: RESUMEN DEL TURNO
+            - heading "Hagamos que vuelvan." [level=2] [ref=e57]
+            - paragraph [ref=e58]: Has registrado 23 visitas hoy.
+          - generic [ref=e59]: ✳
+        - generic [ref=e60]:
+          - article [ref=e61]:
+            - generic [ref=e62]: ↗
+            - generic [ref=e63]: Visitas hoy
+            - strong [ref=e64]: "23"
+            - generic [ref=e65]: +4 respecto a ayer
+          - article [ref=e66]:
+            - generic [ref=e67]: ◉
+            - generic [ref=e68]: Clientes atendidos
+            - strong [ref=e69]: "18"
+            - generic [ref=e70]: En este turno
+          - article [ref=e71]:
+            - generic [ref=e72]: ✳
+            - generic [ref=e73]: Premios listos
+            - strong [ref=e74]: "3"
+            - generic [ref=e75]: Esperando entrega
+        - generic [ref=e76]:
+          - button "＋ Registrar una visita" [ref=e77] [cursor=pointer]
+          - button "⌕ Buscar cliente" [ref=e78] [cursor=pointer]
+          - button "▦ Escanear código" [ref=e79] [cursor=pointer]
+          - button "＋ Inscribir cliente" [ref=e80] [cursor=pointer]
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - heading "Personas para atender" [level=2] [ref=e84]
+              - paragraph [ref=e85]: Clientes con premio listo o que están cerca de completarlo
+            - button "Ver directorio →" [ref=e86] [cursor=pointer]
+          - table [ref=e88]:
+            - rowgroup [ref=e89]:
+              - row [ref=e90]:
+                - columnheader "Cliente" [ref=e91]
+                - columnheader "Visitas" [ref=e92]
+                - columnheader "Última visita" [ref=e93]
+                - columnheader "Estado" [ref=e94]
+                - columnheader [ref=e95]
+            - rowgroup [ref=e96]:
+              - row [ref=e97] [cursor=pointer]:
+                - cell "VR Valentina Ruiz 320 998 1245" [ref=e98]:
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: VR
+                    - generic [ref=e101]:
+                      - generic [ref=e102]: Valentina Ruiz
+                      - generic [ref=e103]: 320 998 1245
+                - cell "23" [ref=e104]
+                - cell "Ayer" [ref=e105]
+                - cell "Premio listo" [ref=e106]
+                - cell "↗" [ref=e108]
+              - row [ref=e109] [cursor=pointer]:
+                - cell "JH Julián Herrera 310 887 3210" [ref=e110]:
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: JH
+                    - generic [ref=e113]:
+                      - generic [ref=e114]: Julián Herrera
+                      - generic [ref=e115]: 310 887 3210
+                - cell "9" [ref=e116]
+                - cell "Hace 5 días" [ref=e117]
+                - cell "Activa" [ref=e118]
+                - cell "↗" [ref=e120]
+  - generic [ref=e121]:
+    - generic [ref=e122]: Propuesta 01
+    - link "Comparar diseños ↗" [ref=e123] [cursor=pointer]:
+      - /url: /propuestas
